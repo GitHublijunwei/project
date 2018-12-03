@@ -1,0 +1,123 @@
+@import "../../assets/common";
+
+#login{
+  height:100%;
+  width:100%;
+  background:url("../../assets/forever/denglubg.png") no-repeat fixed;
+  background-size: 100% 100%;
+  div.login{
+    text-align: center;
+    padding: 20px 0;
+    font-size: 18px;
+  }
+  .register-logo{
+    text-align: center;
+    position: relative;
+    font-size: 18px;
+    padding-top: 10px;
+   img{
+     width: 100px;
+     height: 100px;
+     border-radius: 50%;
+     margin-top: 20px;
+   }
+    .goback{
+      position: absolute;
+      left: 15px;
+    }
+  }
+  .register-form{
+    //padding: 5% 10%;
+    margin: 20px auto;
+    .re_input{
+      background-color: #fff;
+      border-radius: 5px;
+      width: 90%;
+      margin: 0 auto;
+      padding: 20px 15px 10px;
+      box-sizing: border-box;
+    .login-input{
+      width: 100%;
+      border-bottom:1px solid #f5f5f5;
+      position:relative;
+      margin-bottom: 15px;
+      input{
+        width: 80%;
+        padding: 14px 40px;
+        border: none;
+        outline: none;
+        background: none;
+        color:#000;
+        font-size:15px;
+      }
+      img{
+        position: absolute;
+        left: 10px;
+        top: 50%;
+        transform: translateY(-50%);
+        width: 15px;
+        line-height: 35px;
+        color: @info-color;
+        font-size: 22px;
+      }
+    }
+      .smallButton{
+        display: flex;
+        justify-content: space-between;
+        p{
+          width: 80px;
+          //padding: 0px 0 20px 0;
+          line-height: 45px;
+          font-size: 13px;
+          color: rgb(190,35,250);
+        }
+        button{
+          background: none;
+          border: none;
+        }
+      }
+    }
+    .login-tips{
+      padding:5%;
+      text-align: right;
+    }
+    .login-btn{
+      background-image: -moz-linear-gradient( right, rgb(190,35,250) 0%, rgb(217, 120, 223) 100%);
+      background-image: -webkit-linear-gradient( right, rgb(190,35,250) 0%, rgb(217, 120, 223) 100%);
+      background-image: -ms-linear-gradient( right, rgb(190,35,250) 0%, rgb(217, 120, 223) 100%);
+      height: 3rem;
+      color: #fff;
+      width: 90%;
+      margin: 0 auto;
+      border-radius: 1.5rem;
+      text-align: center;
+      line-height: 3rem;
+      font-size: 18px;
+      margin-top: 1rem;
+    }
+    .footer{
+      position:relative;
+      text-align: center;
+      margin-top:30px;
+      .left{
+        display: inline-block;
+        height: 1px;
+        width: 24%;
+        background: #e7e7e7;
+        position: absolute;
+        top: 12px;
+        left: 5%;
+      }
+      .right{
+        display: inline-block;
+        height: 1px;
+        width: 24%;
+        background: #e7e7e7;
+        position: absolute;
+        top: 12px;
+        right: 5%;
+      }
+    }
+  }
+}
+

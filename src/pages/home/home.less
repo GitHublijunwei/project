@@ -1,0 +1,384 @@
+@import "../../assets/common";
+.home{
+  background-color: #EDEDED;
+  .notice{
+    background-color: #fff;
+    padding: 8px 0;
+    margin-bottom: 0.2rem;
+    .notice-box {
+      z-index: 1;
+      width: 95%;
+      border-radius: 20px;
+      margin-left: 2.5%;
+      height: 40px;
+      opacity: 0.7;
+      display: flex;
+      align-items: center;
+      .notice-img {
+        width: 35px;
+        height: 20px;
+        margin: 0 10px;
+      }
+      marquee {
+        flex: 1;
+        font-size: 14px;
+        height: 40px;
+        line-height: 40px;
+      }
+    }
+  }
+  .nav-bar{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    background-color: #fff;
+    padding: 5%;
+    div{
+      margin-bottom: 15px;
+      width: 30%;
+      text-align: center;
+      img{
+        width: 45px;
+        height: 45px;
+      }
+      p{
+        font-size: 13px;
+        color:#666666;
+      }
+    }
+  }
+}
+.buyCard{
+  .my-head {
+    height: 180px;
+    background: url("../../assets/forever/beijing.png") no-repeat;
+    background-size: 100% 100%;
+    position: relative;
+    .my-title{
+      color: #fff;
+      text-align: center;
+      position: relative;
+      top:30px;
+    }
+    .head-body{
+      border-radius: 5px;
+      margin: 0 5%;
+      box-sizing: border-box;
+      width: 90%;
+      position: absolute;
+      bottom: -60px;
+      .vip{
+        width: 100%;
+      }
+    }
+  }
+  .card-body{
+    background-color: #fff;
+    height: 6rem;
+    width: 95%;
+    margin: 4.5rem auto 0;
+    padding: 0 5px;
+    div:first-child{
+      display: flex;
+      justify-content: space-between;
+      .default{
+        width: 100%;
+        text-align: center;
+        div{
+          display: flex;
+          justify-content: center;
+          width: 75%;
+          margin: 1.75rem auto;
+          line-height: 2.5rem;
+          height: 2.5rem;
+          border: 1px solid #d7d7d7;
+          border-radius: 5px;
+          p{
+            width: 50%;
+            font-family: "PingFang";
+            border-top-left-radius: 5px;
+            border-bottom-left-radius: 5px;
+          }
+          p:first-child{
+            background-color: #e5e5e5;
+            color: rgb( 51, 51, 51 );
+          }
+          p:last-child{
+            color: #fe3737;
+          }
+        }
+      }
+      .selected{
+        div{
+          border: 1px solid #c12cf7;
+          background: #FFFFFF url(../../assets/forever/logo/xunzhong.png) no-repeat right bottom;
+        }
+      }
+    }
+  }
+  .card-btn{
+    background-image: -moz-linear-gradient( right, rgb(190,35,250) 0%, rgb(217, 120, 223) 100%);
+    background-image: -webkit-linear-gradient( right, rgb(190,35,250) 0%, rgb(217, 120, 223) 100%);
+    background-image: -ms-linear-gradient( right, rgb(190,35,250) 0%, rgb(217, 120, 223) 100%);
+    height: 3rem;
+    color: #fff;
+    width: 80%;
+    margin: 0 auto;
+    border-radius: 1.5rem;
+    text-align: center;
+    line-height: 3rem;
+    font-size: 18px;
+    margin-top: 5rem;
+  }
+}
+.ads{
+  p.ads-title{
+    padding:15px;
+    font-size: 14px;
+    color: #b5b5b5;
+  }
+  .ads-body{
+    background-color: #fff;
+    .ads-item{
+      padding: 0 20px;
+      display: flex;
+      justify-content: space-between;
+      height: 3rem;
+      p{
+        line-height: 3rem;
+        img{
+          width: 1rem;
+        }
+      }
+      p.color{
+        color: #fe3737;
+      }
+    }
+    div:first-child{
+      border-bottom: 1px solid #eeeeee;
+    }
+  }
+}
+.customer{
+  .head{
+    div{
+      text-align: center;
+      margin: 50px auto;
+      img{
+        width: 100px;
+        height: 100px;
+      }
+    }
+  }
+  .bod{
+    background-color: #fff;
+    .ads-item{
+      padding: 0 20px;
+      display: flex;
+      justify-content: space-between;
+      height: 3rem;
+      p{
+        line-height: 3rem;
+        img{
+          width: 1rem;
+        }
+      }
+      p.color{
+        color: #fe3737;
+      }
+    }
+    div:not(:last-child){
+      border-bottom: 1px solid #eeeeee;
+    }
+  }
+  .time{
+    background-color: #fff;
+    margin-top: 20px;
+    .ads-item{
+      padding: 0 20px;
+      display: flex;
+      justify-content: space-between;
+      height: 3rem;
+      p{
+        line-height: 3rem;
+        img{
+          width: 1rem;
+        }
+      }
+      p.color{
+        color: #a9a9a9;
+      }
+    }
+    div:first-child{
+      border-bottom: 1px solid #eeeeee;
+    }
+  }
+}
+.wallet{
+  .my-head {
+    height: 180px;
+    background: url("../../assets/forever/beijing.png") no-repeat;
+    background-size: 100% 100%;
+    position: relative;
+    .my-title{
+      color: #fff;
+      text-align: center;
+      position: relative;
+      top:30px;
+      span:last-child{
+        position: absolute;
+        right: 20px;
+        img{
+          width: 20px;
+          height: 20px;
+        }
+      }
+    }
+    .head-body{
+      background-color: #fff;
+      border-radius: 5px;
+      margin: 0 5%;
+      padding: 10px 10px 15px 10px;
+      box-sizing: border-box;
+      width: 90%;
+      position: absolute;
+      bottom: -40px;
+      display: flex;
+      justify-content: space-between;
+      padding: 30px 0;
+      div{
+        text-align: center;
+        width: 50%;
+        P:first-child{
+          margin-bottom: 10px;
+          color: #fe3737;
+          font-size: 22px;
+        }
+        p:last-child{
+          font-size: 12px;
+          color: #8d8d8d;
+        }
+      }
+      div:first-child{
+        border-right: 1px solid #e5e5e5;
+      }
+    }
+  }
+  .list{
+    text-align: center;
+    .none{
+      margin: 100px 0;
+      color: #8d8d8d;
+      img{
+        width: 150px;
+        height: 100px;
+      }
+    }
+
+  }
+}
+.pay{
+ .money{
+   display: flex;
+   justify-content: space-between;
+   background-color: #fff;
+   margin:5px 0 10px;
+   height: 3rem;
+   padding: 0 15px;
+   p{
+     line-height: 3rem;
+     font-size: 16px;
+   }
+   p:last-child{
+     color: #f43530;
+   }
+ }
+  .select{
+    background-color: #fff;
+    padding: 0 15px;
+    div{
+      display: flex;
+      justify-content: space-between;
+      height: 3rem;
+      border-bottom: 1px solid #f5f5f5;
+      line-height: 3rem;
+      .type{
+        position: relative;
+        img:first-child{
+          width: 30px;
+          height: 25px;
+          position: absolute;
+          top:50%;
+          transform: translateY(-50%);
+        }
+        p:last-child{
+          margin-left: 40px;
+        }
+      }
+      .selected{
+        position: relative;
+        img{
+          width: 18px;
+          height: 18px;
+          position: absolute;
+          top: 50%;
+          transform: translateY(-50%);
+          right: 0;
+        }
+      }
+    }
+
+  }
+  .determine{
+    background-image: -moz-linear-gradient( right, rgb(190,35,250) 0%, rgb(217, 120, 223) 100%);
+    background-image: -webkit-linear-gradient( right, rgb(190,35,250) 0%, rgb(217, 120, 223) 100%);
+    background-image: -ms-linear-gradient( right, rgb(190,35,250) 0%, rgb(217, 120, 223) 100%);
+    height: 3rem;
+    color: #fff;
+    width: 90%;
+    margin: 0 auto;
+    border-radius: 1.5rem;
+    text-align: center;
+    line-height: 3rem;
+    font-size: 18px;
+    margin-top: 5rem;
+  }
+}
+.strategy{
+  .list{
+    margin-top: 5px;
+    background-color:#fff;
+    padding: 10px;
+    P:first-child{
+      text-align: left;
+    }
+    p:last-child{
+      text-align: right;
+      font-size: 13px;
+      color:#8d8d8d;
+    }
+  }
+}
+.detail{
+  padding: 0 10px;
+  div:first-child{
+    border-bottom: 1px solid #d5d5d5;
+    p:first-child{
+      text-align: center;
+      padding-top: 5px;
+      font-size: 18px;
+    }
+    p:last-child{
+      text-align: right;
+      font-size: 13px;
+      margin: 15px 0 10px;
+    }
+  }
+  div:last-child{
+    padding-top: 20px;
+  }
+}
+
+
+
+
